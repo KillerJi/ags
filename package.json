@@ -1,0 +1,19 @@
+{
+  "name": "aegis_contracts",
+  "version": "1.0.0",
+  "description": "aegis",
+  "main": "index.js",
+  "scripts": {
+    "solc-bin": "solcjs ./contract/token/AgsToken.sol --bin",
+    "solc-bin-abi": "solcjs ./contract/CToken.sol --abi"
+  },
+  "author": "aegis",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "web3": "^1.2.11"
+  },
+  "devDependencies": {
+    "solc": "0.5.16"
+  }
+}
